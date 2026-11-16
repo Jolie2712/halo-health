@@ -1,0 +1,10 @@
+{
+  "description": "Monitor spacecraft systems, astronaut health, alerts, and mission events in one clear dashboard, helping crew and mission teams investigate risks and act quickly.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
