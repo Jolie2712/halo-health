@@ -4,8 +4,9 @@
 
 Built for the NASA Space Apps Challenge 2026, for the challenge on health monitoring software that helps astronauts assess and act on their own health during long-duration missions.
 
-- **Try it:** open [`docs/index.html`](docs/index.html) (one self-contained file, works offline), or the GitHub Pages site for this repository once Pages is enabled.
-- **Demo video (30 s):** see the [Releases](../../releases) page.
+- **Try it online:** [jolie2712.github.io/halo-health](https://jolie2712.github.io/halo-health/)
+- **Try it offline:** download [`docs/index.html`](docs/index.html) and open it in a browser (the whole app is in that one file).
+- **Demo video (30 s):** [`media/halo-health-demo-30s.mp4`](media/halo-health-demo-30s.mp4)
 
 > **All crew health data in this prototype is simulated.** The crew, the spacecraft (the fictional deep-space transit vehicle *DST Aether*) and every reading come from a seeded simulation in `src/data/sim.ts`. No real person's data is used, and the app labels simulated data as such.
 
@@ -74,7 +75,8 @@ The project was started in Figma Make. The `.figma/` folder, `vite.config.ts`, `
 | `src/store.tsx` | App state, hash routing, saved locally in the browser (`localStorage`) |
 | `src/ui.tsx` | Shared components, SVG charts, glance strip and term tooltips |
 | `src/screens/` | The screens (`Ship3D.tsx` is the three.js spacecraft) |
-| `docs/` | The built single-file prototype, ready for GitHub Pages |
+| `docs/` | The built single-file prototype, served by GitHub Pages |
+| `media/` | The 30-second demo video |
 
 Stack: React 19, TypeScript, Vite 8, Tailwind CSS v4, three.js.
 
